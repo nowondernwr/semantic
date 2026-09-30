@@ -1,10 +1,9 @@
-document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById('year').textContent = new Date().getFullYear();
 
-const header = document.querySelector(".site-header");
-let lastY = window.scrollY;
-
-window.addEventListener("scroll", () => {
-  const y = window.scrollY;
-  header.style.opacity = y > lastY && y > 120 ? "0.72" : "1";
-  lastY = y;
-}, { passive: true });
+const topbar = document.querySelector('.topbar');
+let previous = window.scrollY;
+window.addEventListener('scroll', () => {
+  const now = window.scrollY;
+  topbar.style.opacity = (now > previous && now > 160) ? '.72' : '1';
+  previous = now;
+}, {passive:true});

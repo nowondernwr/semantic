@@ -1,125 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Semantic Two — a monochrome noir landing page." />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Semantic Two — two minds, one signal.">
   <title>Semantic Two</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="grain" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
 
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Semantic Two home">
-      <span class="brand-mark">S²</span>
-      <span class="brand-name">SEMANTIC TWO</span>
+  <header class="topbar">
+    <a class="brand" href="#top">
+      <span class="brand-dot"></span>
+      <span>SEMANTIC TWO</span>
     </a>
-
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
+    <nav>
+      <a href="#story">Story</a>
+      <a href="#world">World</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-kicker">Independent digital studio</div>
+      <img class="hero-image" src="assets/hero.jpg" alt="Semantic characters walking together through a noir autumn park">
+      <div class="hero-shade"></div>
 
-      <h1>
-        Meaning<br />
-        <span>before noise.</span>
-      </h1>
-
-      <div class="hero-bottom">
-        <p>
-          We build sharp digital identities, products and systems
-          with a restrained point of view.
-        </p>
-
-        <a class="arrow-link" href="#about">
-          Enter
-          <span aria-hidden="true">↘</span>
-        </a>
+      <div class="hero-copy">
+        <div class="micro">TWO MINDS / ONE SIGNAL</div>
+        <h1>SEMANTIC<br><span>TWO</span></h1>
+        <p>Two perspectives. One language. A black, white and orange world built around meaning, connection and motion.</p>
+        <a class="cta" href="#story">ENTER THE STORY <span>↘</span></a>
       </div>
 
-      <div class="hero-line"></div>
-      <div class="ghost-word" aria-hidden="true">TWO</div>
+      <div class="hero-index">01 / 04</div>
     </section>
 
-    <section class="manifesto" id="about">
-      <div class="section-number">01</div>
-
-      <div class="manifesto-copy">
-        <p class="eyebrow">About</p>
-        <h2>
-          Clear ideas.<br />
-          Dark edges.<br />
-          No decoration without purpose.
-        </h2>
-      </div>
-
-      <div class="manifesto-note">
-        <p>
-          Semantic Two is a minimal creative practice focused on concept,
-          identity and digital execution. Everything starts with meaning,
-          then form follows.
-        </p>
+    <section class="statement" id="story">
+      <div class="section-label">01 — THE IDEA</div>
+      <div class="statement-grid">
+        <h2>Two characters.<br>One shared path.</h2>
+        <div class="statement-copy">
+          <p>Semantic Two is built around contrast: black and white, two personalities, one direction. The orange light is the signal that cuts through the noise.</p>
+          <p>Simple, graphic and slightly cinematic — with the characters always at the centre.</p>
+        </div>
       </div>
     </section>
 
-    <section class="work" id="work">
-      <div class="section-heading">
-        <span class="section-number">02</span>
-        <p class="eyebrow">Selected directions</p>
+    <section class="split-feature">
+      <figure class="panel panel-tall">
+        <img src="assets/duo-front.jpg" alt="Semantic duo standing together">
+      </figure>
+      <div class="split-copy">
+        <div class="section-label">02 — THE DUO</div>
+        <h2>Better<br>together.</h2>
+        <p>Different silhouettes. Different energy. The same visual language.</p>
+        <div class="accent-line"></div>
+      </div>
+      <figure class="panel panel-tall">
+        <img src="assets/duo-walk.jpg" alt="Semantic duo walking in the noir park">
+      </figure>
+    </section>
+
+    <section class="world" id="world">
+      <div class="world-head">
+        <div class="section-label">03 — THE WORLD</div>
+        <h2>Noir outside.<br><span>Warm signal inside.</span></h2>
       </div>
 
-      <div class="work-list">
-        <article class="work-row">
-          <div class="work-index">A</div>
-          <h3>Digital identity</h3>
-          <p>Brand systems, visual language, tone and interface direction.</p>
-          <span class="row-arrow">↗</span>
-        </article>
+      <div class="mosaic">
+        <figure class="mosaic-main">
+          <img src="assets/banner.jpg" alt="Semantic wide park banner">
+        </figure>
+        <figure class="mosaic-side dark">
+          <img src="assets/semantic-black.jpg" alt="Semantic character on black background">
+        </figure>
+        <figure class="mosaic-side">
+          <img src="assets/girl-noir.jpg" alt="Semantic girl character in park">
+        </figure>
+      </div>
+    </section>
 
-        <article class="work-row">
-          <div class="work-index">B</div>
-          <h3>Web presence</h3>
-          <p>Minimal websites with strong hierarchy and cinematic restraint.</p>
-          <span class="row-arrow">↗</span>
-        </article>
+    <section class="quote">
+      <div class="quote-mark">“</div>
+      <p>Meaning is stronger when two perspectives meet.</p>
+      <div class="quote-rule"></div>
+    </section>
 
-        <article class="work-row">
-          <div class="work-index">C</div>
-          <h3>Product thinking</h3>
-          <p>Clear structure for digital products, tools and experimental ideas.</p>
-          <span class="row-arrow">↗</span>
-        </article>
+    <section class="final-image">
+      <img src="assets/wide-walk.jpg" alt="Semantic duo walking away through the park">
+      <div class="final-overlay">
+        <div class="section-label">04 — KEEP WALKING</div>
+        <h2>SEMANTIC TWO</h2>
       </div>
     </section>
 
     <section class="contact" id="contact">
-      <div class="section-number">03</div>
-      <p class="eyebrow">Contact</p>
-
-      <div class="contact-grid">
-        <h2>Let the idea<br />speak first.</h2>
-
-        <div class="contact-side">
-          <a href="mailto:hello@semantictwo.com">hello@semantictwo.com</a>
-          <p>semantictwo.com</p>
-        </div>
+      <div>
+        <div class="section-label">CONTACT</div>
+        <h2>Stay in<br>the signal.</h2>
+      </div>
+      <div class="contact-right">
+        <a href="mailto:hello@semantictwo.com">hello@semantictwo.com ↗</a>
+        <span>semantictwo.com</span>
       </div>
     </section>
   </main>
 
   <footer>
-    <span>© <span id="year"></span> Semantic Two</span>
-    <span>Built in black & white</span>
+    <span>© <span id="year"></span> SEMANTIC TWO</span>
+    <span>BLACK / WHITE / SIGNAL ORANGE</span>
   </footer>
 
   <script src="script.js"></script>

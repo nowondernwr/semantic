@@ -1,40 +1,29 @@
-# Semantic Two — Noir Landing Page
+# Semantic Two — Noir v2
 
-A simple black-and-white static landing page for **semantictwo.com**.
+Static one-page website for `semantictwo.com`, built around the supplied Semantic artwork.
 
-## Files
-
+## Structure
 - `index.html`
 - `styles.css`
 - `script.js`
+- `assets/` — optimized copies of the supplied images
 
-## Run locally
+## Preview locally
+Just open `index.html` in a browser.
 
-You can open `index.html` directly in a browser.
-
-For a local dev server, from this folder run:
-
-```bash
+Or in PowerShell:
+```powershell
+cd path\to\semantictwo-noir-v2
 python -m http.server 8000
 ```
-
-Then open:
-
-```text
-http://localhost:8000
-```
+Then open `http://localhost:8000`.
 
 ## GitHub
-
-Create a repository named `semantictwo`, upload these files, and commit them.
+Create a repo named `semantictwo`, upload the contents of this folder, and commit.
 
 ## Cloudflare Pages
-
-This is a static site, so no build command is required.
-
-Recommended settings:
-- Framework preset: `None`
-- Build command: leave empty
+- Framework preset: None
+- Build command: leave blank
 - Build output directory: `/`
 
-Then attach your custom domain `semantictwo.com`.
+Then connect `semantictwo.com` as the custom domain.
