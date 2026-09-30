@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Semantic Two — a monochrome noir landing page." />
+  <title>Semantic Two</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Semantic Two home">
+      <span class="brand-mark">S²</span>
+      <span class="brand-name">SEMANTIC TWO</span>
+    </a>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-kicker">Independent digital studio</div>
+
+      <h1>
+        Meaning<br />
+        <span>before noise.</span>
+      </h1>
+
+      <div class="hero-bottom">
+        <p>
+          We build sharp digital identities, products and systems
+          with a restrained point of view.
+        </p>
+
+        <a class="arrow-link" href="#about">
+          Enter
+          <span aria-hidden="true">↘</span>
+        </a>
+      </div>
+
+      <div class="hero-line"></div>
+      <div class="ghost-word" aria-hidden="true">TWO</div>
+    </section>
+
+    <section class="manifesto" id="about">
+      <div class="section-number">01</div>
+
+      <div class="manifesto-copy">
+        <p class="eyebrow">About</p>
+        <h2>
+          Clear ideas.<br />
+          Dark edges.<br />
+          No decoration without purpose.
+        </h2>
+      </div>
+
+      <div class="manifesto-note">
+        <p>
+          Semantic Two is a minimal creative practice focused on concept,
+          identity and digital execution. Everything starts with meaning,
+          then form follows.
+        </p>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="section-heading">
+        <span class="section-number">02</span>
+        <p class="eyebrow">Selected directions</p>
+      </div>
+
+      <div class="work-list">
+        <article class="work-row">
+          <div class="work-index">A</div>
+          <h3>Digital identity</h3>
+          <p>Brand systems, visual language, tone and interface direction.</p>
+          <span class="row-arrow">↗</span>
+        </article>
+
+        <article class="work-row">
+          <div class="work-index">B</div>
+          <h3>Web presence</h3>
+          <p>Minimal websites with strong hierarchy and cinematic restraint.</p>
+          <span class="row-arrow">↗</span>
+        </article>
+
+        <article class="work-row">
+          <div class="work-index">C</div>
+          <h3>Product thinking</h3>
+          <p>Clear structure for digital products, tools and experimental ideas.</p>
+          <span class="row-arrow">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-number">03</div>
+      <p class="eyebrow">Contact</p>
+
+      <div class="contact-grid">
+        <h2>Let the idea<br />speak first.</h2>
+
+        <div class="contact-side">
+          <a href="mailto:hello@semantictwo.com">hello@semantictwo.com</a>
+          <p>semantictwo.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Semantic Two</span>
+    <span>Built in black & white</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
